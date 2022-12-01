@@ -31,8 +31,8 @@ function Footer() {
               <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2022 Copyright:</Typography>
             </Box>
             <Box>
-              <a target="_blank" href="https://brasil.generation.org">
-                <Typography variant="subtitle2" gutterBottom style={{ color: "white" }} align="center">brasil.generation.org</Typography>
+              <a target="_blank" href="https://github.com/comuniorg/comuni-Organic">
+                <Typography variant="subtitle2" gutterBottom style={{ color: "white" }} align="center">Comunidade Organica</Typography>
               </a>
             </Box>
           </Box>

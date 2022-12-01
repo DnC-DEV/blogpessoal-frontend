@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {Typography, Grid, Button} from '@material-ui/core';
 import {Box} from '@mui/material';
 import './Home.css';
 
 function Home() {
+    const [num, setNum] = useState(0);
+
+    useEffect(() => {
+        document.title = `Clicou ${num} vezes`;
+
+        return () => {
+
+        }
+    }, [num]);
+
     return (
         <>
             <Grid container direction="row" justifyContent="center" alignItems="center" style={{ backgroundColor: "#3F51B5" }}>
@@ -16,6 +26,9 @@ function Home() {
                         <Box marginRight={1}>
                         </Box>
                         <Button variant="outlined" style={{ borderColor: "white", backgroundColor: "#3F51B5", color: "white" }}>Ver Postagens</Button>
+                        <Button variant='contained' onClick={() => setNum(num+1)}>
+                            +
+                        </Button>
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
