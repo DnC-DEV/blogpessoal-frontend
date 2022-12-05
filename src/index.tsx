@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createTheme } from '@mui/material';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#0000',
+      contrastText: '#fff'
+    },
+    secondary: {
+      main: '#ia472a',
+    },
+  },
+});
 
 ReactDOM.render(
   <React.StrictMode>

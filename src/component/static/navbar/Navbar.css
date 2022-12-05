@@ -6,3 +6,13 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.button-navbar {
+    display: flex;
+    justify-content: start;
+}
+
+.button-nav {
+    color: inherit;
+    background-color: black;
+}
