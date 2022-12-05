@@ -1,3 +1,7 @@
+.background-nav {
+    color: black !important;
+}
+
 .cursor{
     cursor: pointer;
     color: white;
@@ -14,5 +18,5 @@
 
 .button-nav {
     color: inherit;
-    background-color: black;
+    background-color: #2a623d;
 }

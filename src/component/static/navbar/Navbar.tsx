@@ -23,19 +23,19 @@ function Navbar() {
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                             DnC
                         </Typography>
-                        <Box className='button-navbar'>
-                            <Box mx={1} >
-                                <Button className="button-nav">
+                        <Box display="flex" justifyContent="start">
+                            <Box mx={1}>
+                                <Button className='button-nav'>
                                     HOME
                                 </Button>
                             </Box>
-                            <Box mx={1} >
-                                <Button className="button-nav">
+                            <Box mx={1}>
+                                <Button className='button-nav'>
                                     POSTAGENS
                                 </Button>
                             </Box>
-                            <Box mx={1} >
-                                <Button className="button-nav">
+                            <Box mx={1}>
+                                <Button className='button-nav'>
                                     TEMA
                                 </Button>
                             </Box>
